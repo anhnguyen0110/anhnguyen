@@ -4,7 +4,6 @@ $(function () {
 
         var $rows = $('#custom-container > div.custom-row'),
             $rowsViewport, $rowsOutViewport,
-            $links = $('#custom-links > a'),
             $win = $(window),
             winSize = {},
             anim = false,

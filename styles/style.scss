@@ -22,6 +22,10 @@ a {
     position: relative;
 }
 
+.custom-text-block {
+  padding: 0 25% 20px;
+}
+
 .clr {
     clear: both;
 }
@@ -303,7 +307,7 @@ h2.custom-subtitle:after {
 }
 
 .custom-circle-4 {
-    background-image: url(../images/kapcher.jpg);
+    background-image: url(../images/kapcher2.jpg);
 }
 
 .custom-circle-5 {
@@ -323,10 +327,21 @@ h2.custom-subtitle:after {
 }
 
 .custom-circle-9 {
-    background-image: url(../images/office.png);
+    background-image: url(../images/cavalryit.jpg);
 }
 
 .custom-circle-10 {
     background-image: url(../images/uni.png);
 }
 
+.custom-circle-11 {
+  background-image: url('../images/tidyme.jpg');
+}
+
+.custom-circle-12 {
+  background-image: url('../images/immersivehack.jpg')
+}
+
+.custom-circle-13 {
+  background-image: url('../images/sleepfit.jpg')
+}
