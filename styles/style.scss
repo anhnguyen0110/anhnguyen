@@ -1,25 +1,23 @@
 $main-color: #1fb6ff;
 $secondary-color: #8492a6;
 $text-color: #3c4858;
-
 @import url('reset.css');
 @import url('font-awesome.min.css');
-
 body {
-    background: #fff;
-    color: rgba(0, 0, 0, 0.8);
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 15px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 15px;
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .container {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
 .custom-text-block {
@@ -27,311 +25,312 @@ a {
 }
 
 .clr {
-    clear: both;
+  clear: both;
 }
 
 h1 {
-    font-size: 24px;
-    position: relative;
-    text-align: center;
-    font-weight: 400;
-    padding: 30px 5px;
-    margin: auto;
-    color: $text-color;
-    color: $text-color;
+  font-size: 24px;
+  position: relative;
+  text-align: center;
+  font-weight: 400;
+  padding: 30px 5px;
+  margin: auto;
+  color: $text-color;
+  color: $text-color;
 }
 
 .custom-bio {
-    font-size: 16px;
-    position: relative;
-    max-width: 600px;
-    text-align: left;
-    color: lighten($text-color, 30%);
-    margin: 10px auto;
+  font-size: 16px;
+  position: relative;
+  max-width: 600px;
+  text-align: left;
+  color: lighten($text-color, 30%);
+  margin: 10px auto;
 }
 
 .custom-list {
-    position: relative;
-    list-style: none;
-    text-align: center;
-    color: $main-color;
+  position: relative;
+  list-style: none;
+  text-align: center;
+  color: $main-color;
 }
 
 h2.custom-subtitle {
-    padding: 10px 40px;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: $main-color;
-    position: relative;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 10px 40px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: $main-color;
+  position: relative;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 h2.custom-subtitle:before {
-    width: 4px;
-    height: 40px;
-    background: $main-color;
-    content: '';
-    position: absolute;
-    right: 75%;
-    margin-right: -4px;
-    bottom: -4px;
-    border-radius: 2px 2px 0px 0px;
+  width: 4px;
+  height: 40px;
+  background: $main-color;
+  content: '';
+  position: absolute;
+  right: 75%;
+  margin-right: -4px;
+  bottom: -4px;
+  border-radius: 2px 2px 0px 0px;
 }
 
 h2.custom-subtitle:after {
-    width: 25%;
-    height: 0px;
-    border-bottom: 4px dotted $main-color;
-    content: '';
-    position: absolute;
-    right: 50%;
-    margin-right: -1px;
-    bottom: -4px;
+  width: 25%;
+  height: 0px;
+  border-bottom: 4px dotted $main-color;
+  content: '';
+  position: absolute;
+  right: 50%;
+  margin-right: -1px;
+  bottom: -4px;
 }
 
 .custom-links {
-    position: fixed;
-    left: 10px;
-    top: 166px;
-    width: 25%;
-    z-index: 100;
+  position: fixed;
+  left: 10px;
+  top: 166px;
+  width: 25%;
+  z-index: 100;
 }
 
 .custom-links a {
-    background: rgba(132, 146, 166, 0.5);
-    font-size: 16px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    margin: 5px;
-    float: left;
-    border-radius: 50%;
-    display: block;
-    text-align: center;
-    -webkit-transition: background 0.2s linear;
-    transition: background 0.2s linear;
-    i {
-        color: $text-color;
-    }
+  background: rgba(132, 146, 166, 0.5);
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 5px;
+  float: left;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+  i {
+    color: $text-color;
+  }
 }
 
 .custom-links a:hover {
-    background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .custom-container {
-    width: 100%;
-    position: relative;
-    text-align: left;
-    float: left;
-    overflow: hidden;
-    padding-bottom: 500px;
+  width: 100%;
+  position: relative;
+  text-align: left;
+  float: left;
+  overflow: hidden;
+  padding-bottom: 500px;
 }
 
 .custom-container h2 {
-    font-size: 40px;
-    text-transform: uppercase;
-    color: rgba(78, 84, 123, 0.2);
-    text-shadow: 0px 1px 1px #fff;
-    padding: 20px 0px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgba(78, 84, 123, 0.2);
+  text-shadow: 0px 1px 1px #fff;
+  padding: 20px 0px;
 }
 
 .custom-container:before {
-    position: absolute;
-    width: 4px;
-    background: $main-color;
-    top: 0px;
-    left: 50%;
-    margin-left: -2px;
-    content: '';
-    height: 100%;
+  position: absolute;
+  width: 4px;
+  background: $main-color;
+  top: 0px;
+  left: 50%;
+  margin-left: -2px;
+  content: '';
+  height: 100%;
 }
 
 .custom-row {
-    width: 100%;
-    clear: both;
-    float: left;
-    position: relative;
-    padding: 30px 0;
+  width: 100%;
+  clear: both;
+  float: left;
+  position: relative;
+  padding: 30px 0;
 }
 
 .custom-left,
 .custom-right {
-    float: left;
-    width: 48%;
-    position: relative;
+  float: left;
+  width: 48%;
+  position: relative;
 }
 
 .custom-right {
-    padding-left: 2%;
+  padding-left: 2%;
 }
 
 .custom-left {
-    text-align: right;
-    float: left;
-    padding-right: 2%;
+  text-align: right;
+  float: left;
+  padding-right: 2%;
 }
 
 .custom-circle {
-    border-radius: 50%;
-    overflow: hidden;
-    display: block;
-    text-indent: -9000px;
-    text-align: left;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: static;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  text-indent: -9000px;
+  text-align: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: static;
 }
 
 .custom-small .custom-circle {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .custom-medium .custom-circle {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .custom-large .custom-circle {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
 .custom-circle-deco:before {
-    width: 29%;
-    height: 0px;
-    border-bottom: 5px dotted $main-color;
-    border-bottom: 5px dotted $main-color;
-    box-shadow: 0px 1px 1px #fff;
-    position: absolute;
-    top: 50%;
-    content: '';
-    margin-top: -3px;
+  width: 29%;
+  height: 0px;
+  border-bottom: 5px dotted $main-color;
+  border-bottom: 5px dotted $main-color;
+  box-shadow: 0px 1px 1px #fff;
+  position: absolute;
+  top: 50%;
+  content: '';
+  margin-top: -3px;
 }
 
 .custom-circle-deco:after {
-    width: 0px;
-    height: 0px;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    content: '';
-    position: absolute;
-    top: 50%;
-    margin-top: -10px;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  content: '';
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
 }
 
 .custom-left .custom-circle-deco:before {
-    right: 2%;
+  right: 2%;
 }
 
 .custom-right .custom-circle-deco:before {
-    left: 2%;
+  left: 2%;
 }
 
 .custom-left .custom-circle-deco:after {
-    right: 0;
-    border-right: 10px solid $main-color;
+  right: 0;
+  border-right: 10px solid $main-color;
 }
 
 .custom-right .custom-circle-deco:after {
-    left: 0;
-    border-left: 10px solid $main-color;
+  left: 0;
+  border-left: 10px solid $main-color;
 }
 
 .custom-left .custom-circle {
-    float: right;
-    margin-right: 30%;
+  float: right;
+  margin-right: 30%;
 }
 
 .custom-right .custom-circle {
-    float: left;
-    margin-left: 30%;
+  float: left;
+  margin-left: 30%;
 }
 
 .custom-container h3 {
-    margin-top: 34px;
-    padding: 10px 15px;
+  margin-top: 34px;
+  padding: 10px 15px;
 }
 
 .custom-container .custom-medium h3 {
-    margin-top: 82px;
+  margin-top: 82px;
 }
 
 .custom-container .custom-large h3 {
-    margin-top: 133px;
+  margin-top: 133px;
 }
 
 .custom-container .custom-left h3 {
-    border-right: 5px solid rgba(164, 166, 181, 0.8);
+  border-right: 5px solid rgba(164, 166, 181, 0.8);
 }
 
 .custom-container .custom-right h3 {
-    border-left: 5px solid rgba(164, 166, 181, 0.8);
+  border-left: 5px solid rgba(164, 166, 181, 0.8);
 }
 
 .custom-container h3 span {
-    color: $main-color;
-    font-size: 13px;
-    display: block;
-    padding-bottom: 5px;
+  color: $main-color;
+  font-size: 13px;
+  display: block;
+  padding-bottom: 5px;
 }
 
 .custom-container h3 a {
-    font-size: 20px;
-    color: $text-color;
-    display: block;
+  font-size: 20px;
+  color: $text-color;
+  display: block;
 }
 
 .custom-container h3 a:hover {
-    color: $main-color;
+  color: $main-color;
 }
 
 .custom-container h3 li {
-    font-size: 16px;
-    &.hightlight {
-        color: $main-color;
-    }
+  font-size: 16px;
+  &.hightlight {
+    color: $main-color;
+  }
 }
+
 .custom-circle-1 {
-    background-image: url(../images/smileysnap.jpg);
+  background-image: url(../images/smileysnap.jpg);
 }
 
 .custom-circle-2 {
-    background-image: url(../images/conx.jpg);
+  background-image: url(../images/conx.jpg);
 }
 
 .custom-circle-3 {
-    background-image: url(../images/wasteconnects.jpg);
+  background-image: url(../images/wasteconnects.jpg);
 }
 
 .custom-circle-4 {
-    background-image: url(../images/kapcher2.jpg);
+  background-image: url(../images/kapcher2.jpg);
 }
 
 .custom-circle-5 {
-    background-image: url(../images/glamcorner.jpg);
+  background-image: url(../images/glamcorner.jpg);
 }
 
 .custom-circle-6 {
-    background-image: url(../images/quixxi.jpg);
+  background-image: url(../images/quixxi.jpg);
 }
 
 .custom-circle-7 {
-    background-image: url(../images/coding.jpg);
+  background-image: url(../images/coding.jpg);
 }
 
 .custom-circle-8 {
-    background-image: url(../images/ssw-syd.jpg);
+  background-image: url(../images/ssw-syd.jpg);
 }
 
 .custom-circle-9 {
-    background-image: url(../images/cavalryit.jpg);
+  background-image: url(../images/cavalryit.jpg);
 }
 
 .custom-circle-10 {
-    background-image: url(../images/uni.png);
+  background-image: url(../images/uni.png);
 }
 
 .custom-circle-11 {
@@ -344,4 +343,8 @@ h2.custom-subtitle:after {
 
 .custom-circle-13 {
   background-image: url('../images/sleepfit.jpg')
+}
+
+.custom-circle-14 {
+  background-image: url('../images/me2.jpg')
 }
